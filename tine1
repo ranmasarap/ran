@@ -1,0 +1,20 @@
+https://youtube.com/shorts/WEsFIIUaNrk?si=0XPAEE7f_re-_38a
+
+https://github.com/ranmasarap/ran/new/main
+
+def classify_age(age):
+    # First, check if the age is a valid (non-negative) number
+    if age < 0:
+        print("Invalid age. Please enter a non-negative number.")
+    # Check if the person is a child
+    elif age <= 12:
+        print("You are a Child.")
+    # Check if the person is a teen
+    elif age <= 19:
+        print("You are a Teen.")
+    # Check if the person is an adult
+    elif age <= 64:
+        print("You are an Adult.")
+    # If not any of the above, the person must be a senior
+    else:
+        print("You are a Senior.")
